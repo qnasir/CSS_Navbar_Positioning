@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-image: linear-gradient(215deg ,rgb(0, 183, 255), rgb(74, 228, 228), white);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 183vh; 
+    box-sizing: initial;
+
+}
+
+.webpage-icon{
+    height: 300px;
+    width: 300px;
+    border: 5px solid rgb(76, 162, 173);
+    border-radius: 20px;
+   
+    
+}
+
+.webpage-icon-container{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.header-text{
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    font-size: 25px;
+}
+
+nav{
+    position: relative;
+    left: 1000px;
+    top: 200px;
+}
+
+nav button{
+    height: 60px;
+    width: 180px;
+    justify-content: space-around   ;
+    margin-right: 40px;
+    /* background: linear-gradient(135deg ,rgb(170, 252, 255), rgb(26, 196, 196), rgb(0, 0, 0)); */
+    background-color: rgb(52, 195, 214);
+    border: 4px rgb(255, 255, 255) solid;
+    border-radius: 35px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.center{
+    /* position: absolute; */
+    margin-top: 401px;
+    /* margin-left: 650px; */
+    padding-left: 650px;
+    font-size: 50px;
+    left: 300px;
+    text-decoration: underline;
+}
+
+.category-home{
+    /* position: absolute;
+    top: 680px;
+    left: 130px; */
+    width: 430px;
+    padding: 30px;
+    border:  6px rgb(2, 120, 136) solid;
+    background-color: rgb(26, 196, 196);
+    color: white;
+    border-radius: 20px;
+}
+
+.category-home h2,.category-home h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+   
+}
+
+.category-office{
+    /* position: absolute;
+    top: 680px;
+    left: 720px; */
+    width: 430px;
+    padding: 30px;
+    border:  6px rgb(2, 120, 136) solid;
+    background-color: rgb(26, 196, 196);
+    color: white;
+    border-radius: 20px;
+}
+
+.category-office h2,.category-office h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+   
+}
+
+.category-gaming{
+    /* position: absolute;
+    top: 680px;
+    left: 1300px; */
+    width: 430px;
+    padding: 30px;
+    border:  6px rgb(2, 120, 136) solid;
+    background-color: rgb(26, 196, 196);
+    color: white;
+    border-radius: 20px;
+}
+
+.category-gaming h2,.category-gaming h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.category-home>img{
+    height: 300px;
+    width: 430px;
+}
+
+.category-office>img{
+    height: 300px;
+    width: 430px;
+}
+
+.category-gaming>img{
+height: 300px;
+width: 430px;
+}
+
+footer{
+    /* position: absolute;
+    top: 1400px; */
+    text-align: center;
+    /* left: 640px; */
+    font-size: 30px;
+}
+
+div.flex{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 0px;
+    justify-content: space-evenly;
+}
+
+.contact-container>h2{
+    text-decoration: underline;
+}
+
+.dropbtn,.morebtn{
+    height: 40px;
+    width: 150px;
+    margin-left: 37px;
+    background-image: linear-gradient(135deg ,rgb(170, 252, 255), rgb(26, 196, 196), rgb(0, 0, 0));
+    border: 4px rgb(255, 255, 255) solid;
+    border-radius: 35px;
+    color: white;
+}
+
+nav button:hover{
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.dropbtn:hover{
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.morebtn:hover{
+    color: rgb(0, 0, 0);
+    border: rgb(0, 183, 255);
+}
